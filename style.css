@@ -223,11 +223,12 @@ margin-right: 10px;
  margin-bottom: 40px;
  margin-top: 80px;
 }
+#pair2{
+    margin-top: 15%;
+}
 #pair2 div video{
-    position: relative;
-    right: 15%;
     width: 70%;
-    top: 350px;
+    margin-left: -10%;
     border-radius: 50px;
     margin-bottom: 40px;
     margin-top: 80px;

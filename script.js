@@ -100,10 +100,38 @@ page4Video9.addEventListener("mouseover", function () {
 page4Video9.addEventListener("mouseout", function () {
   page4Video9.pause();
 });
-gsap.from("#page1 , #page2 , #page3 ", {
+
+gsap.from("#page1", {
   y: 100,
   opacity: 0,
   delay: 0.2,
   duration: 2,
   stagger: 0.5,
 });
+
+gsap.from("#page2", {
+  y: 100,
+  opacity: 0,
+  delay: 1,
+  duration: 2,
+  stagger: 0.5,
+});
+
+gsap.from("#page3", {
+  y: 100,
+  opacity: 0,
+  delay: 2,
+  duration: 2,
+  stagger: 0.9,
+});
+
+gsap.from(
+  ".page4-video1,.page4-video9,.page4-video2,.page4-video3,.page4-video6,.page4-video4,.page4-video5,.page4-video6,.page4-video9,.page4-video7,.page4-video8",
+  {
+    y: 100,
+    opacity: 0,
+    delay: 4,
+    duration: 0.5,
+    stagger: 0.5,
+  }
+);
