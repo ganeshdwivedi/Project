@@ -4,7 +4,13 @@
     box-sizing: border-box;
     font-family: "averta cy w10";
 }
-
+.cursor{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    z-index: 9999;
+    position: absolute;
+}
 html, body{
     height: 100%;
     width: 100%;
@@ -182,10 +188,19 @@ margin-right: 10px;
     font-size: 10rem;
     font-weight: 100;
 }
-.featured-video{
-    width: 100px;
-    border-radius: 25px;
+
+.video-con{
+    display: inline-block;
+    height: 100px;
+    width: 220px;  
 }
+.featured-video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100px;
+}
+
 #boxin{
     position: absolute;
     top: 13%;
